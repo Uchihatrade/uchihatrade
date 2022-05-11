@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@600&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#1A2028 ;
+}
+main{
+    height:7000px;
+}
+.navbar-custom{
+    background-color: #1A2028;
+}
+.nav-link-custom{
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #A9ACB0!important; 
+    white-space: nowrap;
+}
+.nav-link-custom-active{
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF!important;
+    white-space: nowrap;
+}
+.nav-icon{
+    font-size: 12px;
+    color: #A9ACB0!important; 
+}
+.nav-icon-active{
+    font-size: 12px;
+    color:#5ED06A;
+}
+.nav-icon-signin{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.nav-item-custom{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.nav-dropdown-lang-custom{
+    background-color: transparent;
+    border: none;
+}
+.nav-dropdown-lang-custom:hover{
+    background-color: transparent;
+    border: none;
+}
+.nav-dropdown-lang-custom:focus{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.nav-dropdown-lang-custom:active{
+    background-color: transparent;
+    border: none;
+}   
+.nav-dropdown-lang-custom::after{
+    display: none!important;
+}
+.dropdown-toggler-custom{
+    font-size: 18px;
+    color: #A9ACB0!important; 
+}
+.dropdown-menu-lang-custom{
+    min-width: auto;
+    background: #393F47;
+    padding: 8px 10px;
+}
+.drp-item{    
+    color: #A9ACB0;
+}
+.drp-item-active{
+    color: #FFFFFF;
+}
+.btn-create-acc{
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;    
+    color: #FFFFFF;
+    white-space: nowrap;
+    background: linear-gradient(90.4deg, #5ED06A 0.35%, #11A466 99.7%);
+    box-shadow: 0px 13px 70px rgba(28, 170, 103, 0.18);
+    border-radius: 50px;
+    padding: 16px 27px;
+}
+.btn-create-acc:hover{
+    color: #FFFFFF;
+}
+.big-text-custom{
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+.green-text-custom
+{
+    color: #11A466;
+}
+.small-text-secondary-custom{
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 600;
+    color: #A9ACB0;
+}
+.mainpage-item1{
+    margin-top: 250px!important;
+}
+.learn-more-link{
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.fancy-data-animation{  
+    background: #21272F;
+}
+.fancy-data-animation > .progress > .progress-bar{
+    background: linear-gradient(90.4deg, #5ED06A 0.35%, #11A466 99.7%)!important;
+    border-top-right-radius: 15px!important;
+    border-bottom-right-radius: 15px!important;
+}
+.ghost-container{
+    background: #1A2028;
+    border-radius: 12px;
+}
+.ghost {    
+    animation: float 3s ease-out infinite;
+  }
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+  }  
+  
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+}
+
+
